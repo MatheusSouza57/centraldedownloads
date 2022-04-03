@@ -1,0 +1,79 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+:root{
+    --fontetitular: 'Passion One', cursive;
+}
+body{
+    background-color: #45454A;
+    font-family: var(--fontetitular);
+}
+header{
+    text-align: center;
+    margin-top: 300px;
+    margin-bottom: 300px;
+    font-size: 2em;
+}
+main{
+    margin: auto;
+    width: 90%;
+    max-width: 1400px;
+    min-width: 200px;
+}
+main div.fit{
+    display: flex;
+    flex-wrap: wrap;
+
+}
+main div.box{
+    margin: auto auto 50px auto;
+    width: 45%;
+    background-color: white;
+    text-align: center;
+    padding-bottom: 10px;
+    border-radius: 8px 8px 5px 5px;
+}
+main div.nomeapp{
+    margin: 10px;
+    font-size: 20px;
+}
+main div.botao{
+    background-color: black;
+    width: 50%;
+    margin: auto;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 18px;
+}
+div.botao a{
+    color: white;
+    text-decoration: none;
+}
+div.botao a:hover{
+    text-decoration: underline;
+}
+img{
+    width: 100%;
+    border-radius: 5px 5px 0px 0px;
+}
+@media (max-width: 736px)
+{
+    header{
+        font-size: 1.5em;
+    }
+    main div.box{
+        width: 100%;
+    }
+}
+@media (max-width: 500px)
+{
+    header{
+        font-size: 1.2em;
+    }
+}
