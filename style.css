@@ -72,6 +72,7 @@ footer{
     color: white;
     background-color: black;
 }
+iframe{width: 100%;}
 @media (max-width: 736px)
 {
     header{
