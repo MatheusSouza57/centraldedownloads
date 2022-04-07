@@ -10,7 +10,7 @@
 :root{
     --font01: 'Passion One', sans-serif;
     --font02: 'Noto Serif', sans-serif;
-    --font03: 'Anton', sans-serif;
+    --font03: 'Anton', 'Passion One', sans-serif;
 }
 /* 
     Passion One: Regular 400, Bold 700, Black 900;
@@ -27,6 +27,10 @@ header{
     margin-top: 100px;
     margin-bottom: 100px;
     font-size: 2em;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.526);
+}
+header > h1{
+    font-weight: normal;
 }
 main{
     margin: auto;
@@ -45,6 +49,7 @@ main div.box{
     text-align: center;
     padding-bottom: 20px;
     border-radius: 8px 8px 5px 5px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.466);
 }
 main div.nomeapp{
     margin: 10px;
