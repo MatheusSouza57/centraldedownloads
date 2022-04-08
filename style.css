@@ -94,10 +94,16 @@ footer{
     main div.box{
         width: 100%;
     }
+    footer{
+        font-size: 1.7em;
+    }
 }
 @media (max-width: 600px)
 {
     header{
         font-size: 1em;
+    }
+    footer{
+        font-size: 1.2em;
     }
 }
